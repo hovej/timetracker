@@ -1,0 +1,23 @@
+.green {
+    color: green;
+    margin: 2px;
+}
+
+.red {
+    color: red;
+    margin: 2px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+#myform {
+    position: fixed;
+    top: 5px;
+}
+
+#displayTime {
+    padding: 10px;
+}
