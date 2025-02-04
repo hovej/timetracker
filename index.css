@@ -19,17 +19,27 @@ h4 {
 }
 
 #formdiv {
-    width: 90vw;
-    margin: auto;
+    width: 100vw;
     height: 15vw;
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
 }
 
+form {
+    width: 100%;
+}
+
+#startInput {
+    width: 60%;
+}
+
 input {
     height: 60%;
-    margin-top: 5%;
-    margin-left: 15px
+    width: 40%;
+    margin: 5px;
 }
 
 #displayTime {
