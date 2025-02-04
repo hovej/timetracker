@@ -1,3 +1,8 @@
+body {
+    text-align: center;
+    overflow-x: hidden;
+}
+
 .green {
     color: green;
     margin: 2px;
@@ -13,9 +18,18 @@ h4 {
     margin-bottom: 6px;
 }
 
-#myform {
-    position: fixed;
-    top: 5px;
+#formdiv {
+    width: 90vw;
+    margin: auto;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 15px
 }
 
 #displayTime {
