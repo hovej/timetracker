@@ -43,6 +43,10 @@ input {
     margin: 5px;
 }
 
+input[type="text"] {
+    font-size: inherit;
+  }
+
 #displayTime {
     margin-top: 30vw;
 }
